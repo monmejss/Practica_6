@@ -19,9 +19,6 @@ En este archivo se configura el Systick Handler, esta funcion se ejecuta cuando 
 6. Habilitar interrupciones en NVIC
 7. Configurar interrupciones elegidas (en este caso EXTI12 - EXTI15) 
 
-### SysTick_isr.s
-
-
 ### Ejecución del proyecto 
 1. Si está clonando el repositorio desde github, debe desvincularlo del repositorio remoto usando el comando 'make unlink'
 2. Para eliminar los archivos que resultan del ensamble utilice el comando 'make clean' 
@@ -29,4 +26,6 @@ En este archivo se configura el Systick Handler, esta funcion se ejecuta cuando 
 4. Por último, ejecuta el comando 'make write' para grabar el archivo con extensión .bin que se obtuvo en el paso 3.
 
 ### Implementacion 
+![Captura desde 2023-06-07 15-07-01](https://github.com/monmejss/Practica_6/assets/122710250/a438180c-fa0a-412e-bbac-cb667dc76e84)
+
 
